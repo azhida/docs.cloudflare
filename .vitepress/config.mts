@@ -14,7 +14,8 @@ const sidebarArr: DefaultTheme.Sidebar = [
           {text: 'Guide', link: '/guide'},
           {text: 'Quickstarts', link: '/quickstarts'},
         ]
-       }
+      },
+      {text: 'Examples', link: '/examples'},
     ]
   }
 ]
