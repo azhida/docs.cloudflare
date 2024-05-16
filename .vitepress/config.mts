@@ -9,9 +9,10 @@ const sidebarArr: DefaultTheme.Sidebar = [
     collapsed: false,
     items: [
       { text: 'Overview', link: '/' },
-      { text: 'get-started', base: '/workers/get-started', link: '/', collapsed: false,
+      { text: 'Get started', base: '/workers/get-started', link: '/', collapsed: false,
         items: [
-          {text: 'guide', link: '/guide'}
+          {text: 'Guide', link: '/guide'},
+          {text: 'Quickstarts', link: '/quickstarts'},
         ]
        }
     ]
